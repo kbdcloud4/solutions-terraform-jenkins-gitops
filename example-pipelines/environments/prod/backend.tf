@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "grand-karma-338204-tfstate"
     prefix = "env/prod"
   }
 }
